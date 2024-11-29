@@ -6,7 +6,7 @@ v.0.1
 
 ## Development
 
-Currently utilizing React .
+Currently using React JS for developement. Using this to learn a little more front-end development stuff.
 
 ## Contributing
 
