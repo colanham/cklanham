@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.abb66a3b.css",
+    "main.js": "/static/js/main.08bea673.js",
+    "static/media/Arimo-MediumItalic.ttf": "/static/media/Arimo-MediumItalic.cd221eaa990de7d8f61e.ttf",
+    "static/media/Arimo-Medium.ttf": "/static/media/Arimo-Medium.70607006b9b30549511b.ttf",
+    "index.html": "/index.html",
+    "main.abb66a3b.css.map": "/static/css/main.abb66a3b.css.map",
+    "main.08bea673.js.map": "/static/js/main.08bea673.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb66a3b.css",
+    "static/js/main.08bea673.js"
+  ]
+}
