@@ -54,6 +54,13 @@ h2 {
   padding: 10px;
 }
 
+.info img {
+  width: 300px;
+  height: 230px;
+  border: 3px solid white;
+  border-radius: 75px;
+}
+
 .contact-links ul {
   padding-right: 45px;
 }
@@ -63,9 +70,10 @@ h2 {
   justify-content: center;
   text-align: center;
   position: absolute;
-  top: 98%;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+  min-width: 575px;
 }
 
 .bottom-container ul {

@@ -8,6 +8,7 @@ function App() {
     <div className='App'> 
       <div className='info-container'>
         <div className='info'>
+          <img src={'images/me.jpeg'} alt=''></img>
           <h1>cole lanham - personal site</h1>
           <p>v.0.1</p>
           <h2>wannabe swe | digital minimalist | cultural heretic</h2>
