@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         noise: "url('../public/images/noisy-texture.png')"
       },
+      colors: {
+        background: "#201A1B"
+      },
     },
   },
   plugins: [],

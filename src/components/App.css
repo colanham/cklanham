@@ -12,14 +12,16 @@
   src: local('arimo'), url('../../public/fonts/Arimo/static/Arimo-MediumItalic.ttf'), format('truetype');
 }
 
-@keyframes noise {
-  0% { transform: translate(0); }
-  100% { transform: translate(5px, 5px); }
+@keyframes hover-animation {
+  0% {text-color: white; color: rgb(254 249 195 / var(--tw-text-opacity, 1));}
+  100% {color: rgb(254 249 195 / var(--tw-text-opacity, 1)); text-decoration-color: rgb(254 249 195 / var(--tw-text-opacity, 1));}
+}
+
+.hover-animation {
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .noise-effect {
-  animation: noise 0.1s infinite;
-  background: rgba(255, 255, 255, 0.1);
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
-  background-size: 100% 100%;
+  background-image: url('../../public/images/noisy-texture.png');
 }
+
