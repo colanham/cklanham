@@ -12,71 +12,14 @@
   src: local('arimo'), url('../../public/fonts/Arimo/static/Arimo-MediumItalic.ttf'), format('truetype');
 }
 
-body {
-  background-color: #201a1b;
+@keyframes noise {
+  0% { transform: translate(0); }
+  100% { transform: translate(5px, 5px); }
 }
 
-ul, li {
-  display: inline-block;
+.noise-effect {
+  animation: noise 0.1s infinite;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+  background-size: 100% 100%;
 }
-
-li {
-  width: 100px;
-}
-
-/**li {
-  border: 1px solid blue;  
-}*/
-
-h1, p, a {
-  font-family: 'arimo';
-  color: white;
-}
-
-h1 {
-  font-size: 3em;
-}
-
-h2 {
-  font-family: 'arimo';
-  font-style: italic;
-  color: white;
-}
-
-.info-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
-
-.info img {
-  width: 300px;
-  height: 230px;
-  border: 3px solid white;
-  border-radius: 75px;
-}
-
-.contact-links ul {
-  padding-right: 45px;
-}
-
-.bottom-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 575px;
-}
-
-.bottom-container ul {
-  padding-right: 45px;
-}
-
